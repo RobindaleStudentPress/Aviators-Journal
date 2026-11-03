@@ -104,10 +104,48 @@ const articles = [
                 Más contenido aquí.
             </p>
         `
+    },
+    {
+        id: "critique-on-halloween",
+        title: "Critique on Halloween",
+        category: "Media",
+        type: "Movie · Coming of Age",
+        author: "Adrian Yzaguirre",
+        date: "October, 2026",
+
+        image: "https://i.pinimg.com/1200x/da/bc/ad/dabcad70d889229a9fb3804d346cb6d6.jpg",
+
+        description:
+            "Una descripción corta del artículo.",
+
+        content: `
+            <p>
+                It isn't very hidden that Halloween isn't what it once was, 
+                when we were children or even if some of us never got to experience it. 
+                We still feel that changing the air has changed around us but now it 
+                isn't the same, all that energy and love doesn't spark the same way in us. 
+                As we grew, we noticed no one has their porch lights on, kids hardly knock 
+                door to door, and you don't hear the deafening voices of kids talking 
+                about their costumes, but why? There is a lot of debate as to why that Is, 
+                anything from times is just changing, safety concerns, or now it's more adult oriented.
+                 However, it just can’t be reasonable that with the over glaze that Christmas 
+                 receives Halloween just seems to be melting away. One of the biggest reasons 
+                 for this may also be trunk or treating, on the surface it may seem like a 
+                 good idea, one place where people are gathered to spread Halloween joy safely 
+                 and close knit and a community you trust. This system, however, fundamentally, 
+                 is ruining Halloween we all know and love. No more wandering the dimly lit streets 
+                 of a neighborhood knocking on doors and getting spooked. No more unpredictability 
+                 or crowds of children trying to get the best candy from the scariest houses. 
+                 Everything now is given as a simple quick reward narrowing the whole night it 
+                 Halloween down to a few decorated tables and trunks within a few feet of each other. 
+                 These are only some of the profoundly big reasons as to why tricking or treating 
+                 is dying as a whole. As well as Halloween being ripped from the hands of children 
+                 and being molded into something for adults partying and entertainment. It’s the sad 
+                 truth that's hard to fight; people would rather skim through the Fall holidays on 
+                 their way to Christmas then stop and enjoy what the spooky season is all about. 
+            </p>
+        `
     }
-
-
-
 
 ];
 console.log("Articles loaded:", articles);
