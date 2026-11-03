@@ -79,7 +79,7 @@ const articles = [
     {
         id: "nombre-unico",
         title: "Título del artículo",
-        category: "Media",
+        category: "Sports",
         type: "Movie · Coming of Age",
         author: "Nombre del escritor",
         date: "October 10, 2026",
@@ -104,173 +104,10 @@ const articles = [
                 Más contenido aquí.
             </p>
         `
-    },
-    {
-    id: "fall-courtyard-festival",
-    title: "Fall Courtyard Festival",
-    category: "Events",
-    type: "School Event",
-    author: "Aviators Journal Staff",
-    date: "October 2026",
+    }
 
-    image: "https://images.pexels.com/photos/698516/pexels-photo-698516.jpeg",
 
-    description:
-        "Clubs, food trucks, student bands, and a friendly competition for the best decorated booth.",
 
-    content: `
-        <p>
-            Robindale students will come together for the Fall
-            Courtyard Festival, featuring clubs, food trucks,
-            student bands, and decorated booths.
-        </p>
-
-        <h2>What to Expect</h2>
-
-        <p>
-            Students can explore different activities, support
-            school clubs, and enjoy performances throughout the event.
-        </p>
-    `
-    },
-
-    
-{
-    id: "abbott-elementary",
-    title: "Abbott Elementary",
-    category: "Media",
-    type: "TV Show · Comedy",
-    author: "Aviators Journal",
-    date: "October 2026",
-    image: "https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg",
-    description: "A warm workplace comedy about dedicated teachers finding creative ways to help their students.",
-    content: `
-        <p><strong>Genre:</strong> Comedy · Mockumentary</p>
-        <p>Abbott Elementary follows a group of teachers navigating
-        the challenges of working in an underfunded public school.
-        Its humor comes from their personalities, teamwork, and
-        determination to make a difference.</p>
-        <h2>Why watch it?</h2>
-        <p>It mixes funny classroom moments with stories about
-        friendship, creativity, and the people who support students.</p>
-        <p><strong>Our recommendation:</strong> Watch it with someone
-        who enjoys clever comedy and school-life stories.</p>
-    `
-},
-{
-    id: "hit-me-hard-and-soft",
-    title: "Hit Me Hard and Soft",
-    category: "Media",
-    type: "Music · Album",
-    author: "Aviators Journal",
-    date: "October 2026",
-    image: "https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg",
-    description: "An album built around layered production, contrasting moods, and details that reward another listen.",
-    content: `
-        <p><strong>Category:</strong> Music · Album review</p>
-        <p>Hit Me Hard and Soft by Billie Eilish moves between
-        intimate moments and bigger, atmospheric sounds. Its
-        production creates a listening experience that can feel
-        different when you return to it.</p>
-        <h2>What to notice</h2>
-        <p>Listen for changes in mood, vocal delivery, and the way
-        the production builds throughout each track.</p>
-        <p><strong>Our recommendation:</strong> Give it a focused
-        listen with headphones and decide which track stays with you.</p>
-    `
-},
-{
-    id: "good-girls-guide-to-murder",
-    title: "A Good Girl's Guide to Murder",
-    category: "Media",
-    type: "Book · Mystery",
-    author: "Aviators Journal",
-    date: "October 2026",
-    image: "https://images.pexels.com/photos/6214932/pexels-photo-6214932.jpeg",
-    description: "A determined student investigates a closed case and discovers that the story may not be as simple as it seems.",
-    content: `
-        <p><strong>Genre:</strong> Young adult · Mystery</p>
-        <p>In A Good Girl's Guide to Murder by Holly Jackson,
-        student Pip Fitz-Amobi investigates a case for a school
-        project. As she examines the evidence, she begins questioning
-        the version of events that everyone has accepted.</p>
-        <h2>Why read it?</h2>
-        <p>The investigation encourages readers to pay attention
-        to clues, question assumptions, and consider different
-        perspectives.</p>
-        <p><strong>Our recommendation:</strong> Ideal for readers
-        who enjoy mysteries and trying to solve a case themselves.</p>
-    `
-},
-{
-    id: "stardew-valley",
-    title: "Stardew Valley",
-    category: "Media",
-    type: "Video Game · Cozy Adventure",
-    author: "Aviators Journal",
-    date: "October 2026",
-    image: "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg",
-    description: "A relaxing farming and life simulation game centered on creativity, friendships, and exploring at your own pace.",
-    content: `
-        <p><strong>Genre:</strong> Farming · Simulation · Adventure</p>
-        <p>Stardew Valley lets players build a farm, grow crops,
-        meet townspeople, explore caves, and develop their own
-        daily routines. There are many ways to play, so each
-        farm can feel personal.</p>
-        <h2>What makes it special?</h2>
-        <p>The combination of exploration, customization, and
-        relationships gives players plenty to discover over time.</p>
-        <p><strong>Our recommendation:</strong> A good choice for
-        players who enjoy cozy worlds and setting their own goals.</p>
-    `
-},
-{
-    id: "local-climate-news",
-    title: "How Students Are Reading Local Climate News",
-    category: "Real-World",
-    type: "Current Events",
-    author: "Aviators Journal Staff",
-    date: "October 2026",
-    image: "https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg",
-    description: "A guide to asking smart questions about heat, water, weather alerts, and the sources behind a headline.",
-    content: `
-        <p>Climate news can affect our daily lives, from hot weather to water conservation. Learning to evaluate these stories helps students understand their community.</p>
-
-        <h2>Check the source</h2>
-        <p>Look for who published the information. Reliable reporting should explain where its facts come from and identify the sources behind its claims.</p>
-
-        <h2>Look beyond the headline</h2>
-        <p>Read the entire article, check its publication date, and compare important claims with other reliable sources.</p>
-
-        <h2>Ask questions</h2>
-        <p>Consider how the information affects your community and what additional evidence would help you understand the issue.</p>
-    `
-},
-{
-    id: "ai-smart-questions",
-    title: "What Makes a Good Question for AI?",
-    category: "Real-World",
-    type: "Science & Technology",
-    author: "Aviators Journal Staff",
-    date: "October 2026",
-    image: "https://images.pexels.com/photos/6208713/pexels-photo-6208713.jpeg",
-    description: "Learn how to ask useful questions, check information, and protect your privacy when using AI tools.",
-    content: `
-        <p>Artificial intelligence tools can help students brainstorm ideas, understand difficult concepts, and explore new topics. However, the quality of the results often depends on the questions we ask.</p>
-
-        <h2>Be specific</h2>
-        <p>Explain what you want to learn, provide relevant context, and describe the kind of answer that would help you.</p>
-
-        <h2>Check the information</h2>
-        <p>AI tools can make mistakes. Compare important claims with reliable sources, such as educational institutions and established news organizations.</p>
-
-        <h2>Protect your privacy</h2>
-        <p>Avoid sharing passwords, private school information, personal contact details, or other sensitive information.</p>
-
-        <h2>Use AI responsibly</h2>
-        <p>Use AI to support your learning rather than replace your own thinking. Follow your teacher's rules and make sure you understand the work you submit.</p>
-    `
-}
 
 ];
 console.log("Articles loaded:", articles);
