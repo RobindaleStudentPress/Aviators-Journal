@@ -113,7 +113,7 @@ const articles = [
         author: "Adrian Yzaguirre",
         date: "October, 2026",
 
-        image: "https://i.pinimg.com/1200x/da/bc/ad/dabcad70d889229a9fb3804d346cb6d6.jpg",
+        image: "images/halloween-article.jpg",
 
         description:
             "Una descripción corta del artículo.",
