@@ -504,6 +504,22 @@
 
             </div>
 
+<div class="divider"></div>
+
+<section class="sports-gallery-section">
+    <div class="container page-section">
+
+        <p class="kicker">From the sidelines</p>
+        <h2>Sports Photo Journal</h2>
+        <p>Moments captured by our school community.</p>
+
+        <div id="sports-gallery" class="three-column">
+            <p>Loading photographs...</p>
+        </div>
+
+    </div>
+</section>
+
             
 <div class="divider"></div>
 
@@ -1141,6 +1157,39 @@ function renderAllArticles() {
 
     
     </script>
+
+    
+    <!-- SUPABASE CONNECTION -->
+    <script type="module">
+        import { supabase } from './supabase.js';
+
+        async function testSupabaseConnection() {
+
+            const { data, error } = await supabase
+                .from('sports')
+                .select('id, name, slug')
+                .order('name');
+
+            if (error) {
+                console.error(
+                    'Supabase connection error:',
+                    error.message
+                );
+                return;
+            }
+
+            console.log(
+                'Aviators Journal sports loaded:',
+                data
+            );
+
+            console.table(data);
+        }
+
+        testSupabaseConnection();
+    </script>
+
+<script type="module" src="gallery.js"></script>
 
 </body>
 </html>
