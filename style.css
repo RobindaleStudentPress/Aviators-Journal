@@ -1301,3 +1301,85 @@ footer {
         aspect-ratio: 16 / 9;
     }
 }
+
+/* ================= CAMPUS ORGANIZATIONS ================= */
+
+.organization-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+    align-items: stretch;
+}
+
+.organization-card {
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid rgba(36, 59, 90, .18);
+    box-shadow: 5px 6px 0 rgba(36, 59, 90, .07);
+    transition: .25s ease;
+}
+
+.organization-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 10px 0 rgba(214, 169, 74, .25);
+}
+
+/* Image placeholder */
+
+.organization-image {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cream);
+    border-bottom: 3px solid var(--gold);
+}
+
+.organization-image span {
+    color: var(--navy);
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Card content */
+
+.organization-content {
+    padding: 24px;
+}
+
+.organization-content h2 {
+    margin: 12px 0;
+    font-size: 1.7rem;
+    line-height: 1.2;
+}
+
+.organization-content p {
+    margin-bottom: 0;
+    color: var(--soft);
+    font-size: .92rem;
+    line-height: 1.7;
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+    .organization-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+    .organization-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .organization-image {
+        height: 220px;
+    }
+}

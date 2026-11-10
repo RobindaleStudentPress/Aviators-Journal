@@ -35,12 +35,27 @@ const teamGroups = [
         title: "Writers & Contributors",
         description: "The voices behind our reporting, features, and stories.",
         members: [
-            { name: "[Add Name]", role: "Staff Writer" },
-            { name: "[Add Name]", role: "Staff Writer" },
-            { name: "[Add Name]", role: "Student Contributor" },
-            { name: "[Add Name]", role: "Student Contributor" },
-            { name: "[Add Name]", role: "Student Contributor" },
-            { name: "[Add Name]", role: "Student Contributor" }
+            { name: "Vianey Pineda", role: "Staff Writer" },
+            { name: "Alysha Martinez", role: "Staff Writer" },
+            { name: "Charis Reyes", role: "Staff Writer" },
+            { name: "Miranda Mendoza", role: "Staff Writer" },
+            { name: "Destiny Almazan", role: "Staff Writer" },
+            { name: "Alexxa Garcia", role: "Staff Writer" },
+            { name: "Leah Bolanos", role: "Staff Writer" },
+            { name: "Raul Gutierrez", role: "Staff Writer" },
+            { name: "Yannel Conde", role: "Staff Writer" },
+            { name: "Ilda Hernandez", role: "Staff Writer" },
+            { name: "Alondra Martinez", role: "Staff Writer" },
+            { name: "Sasha Reyes", role: "Staff Writer" },
+            { name: "Kassandria Garcia", role: "Staff Writer" },
+            { name: "Camila Garcia", role: "Staff Writer" },
+            { name: "Sebastian Vazquez", role: "Staff Writer" },
+            { name: "Fernanda Garcia", role: "Staff Writer" },
+            { name: "Miranda Valverde", role: "Staff Writer" },
+            { name: "Adrian Yzaguirre", role: "Staff Writer" },
+            { name: "Raul Garcia", role: "Staff Writer" },
+            { name: "Santiago Villasenor", role: "Staff Writer" },
+            { name: "Eduardo Aguirre", role: "Staff Writer" }
         ]
     }
 ];

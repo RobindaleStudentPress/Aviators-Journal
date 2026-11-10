@@ -77,32 +77,48 @@ const articles = [
         `
     },
     {
-        id: "nombre-unico",
-        title: "Título del artículo",
+        id: "volleyball-senior-night",
+        title: "Volleyball Senior Night",
         category: "Sports",
         type: "Movie · Coming of Age",
-        author: "Nombre del escritor",
-        date: "October 10, 2026",
+        author: "Yannel Conde",
+        date: "October 2026",
 
-        image: "images/mi-foto.jpg",
+        image: "images/senior-night.jpg",
 
         description:
-            "Una descripción corta del artículo.",
+            "Lady Aviators Celebrate Senior Night with a Three-Set Victory.",
 
         content: `
             <p>
-                Aquí comienza tu artículo.
+                On October 26, the Lady Aviators varsity volleyball team celebrated 
+                Senior Night with an exciting victory, winning all three sets of the match. 
+                It was a special evening not only because of the win, but also because it 
+                gave the team an opportunity to recognize seniors Martha Valverde, Hermayoni Sulu, 
+                Megan Ward, and Yannel Conde for their dedication and hard work throughout 
+                their high school volleyball careers. The game was competitive, with both 
+                teams fighting for every point. There were several close moments throughout 
+                the match, but the Lady Aviators stayed focused and continued working together. 
+                Through communication, teamwork, and determination, they managed to keep their 
+                momentum and secure all three sets, reaching 25 points in each one. Throughout the game, 
+                the players showed the effort they have put into improving as a team. 
+                Every serve, pass, and hit contributed to the match. Even when things got challenging, 
+                the girls continued supporting one another and stayed determined to finish strong.
+                Senior Night made the victory even more meaningful. It was a chance to recognize Martha, 
+                Hermayoni, Megan, and Yannel and everything they have contributed to the volleyball 
+                program. After spending so much time practicing, competing, and building friendships, 
+                the evening was a reminder of all the memories and experiences they have shared throughout 
+                their high school years. The support from families, friends, and students in the stands 
+                also made the evening special. Having the school community there to cheer them on added 
+                to the excitement and made the celebration even more memorable. In the end, the 
+                Lady Aviators finished the night with a well-deserved three-set victory. October 26 
+                was a reminder that volleyball is about more than just the final score. It is also 
+                about teamwork, commitment, friendships, and the memories made along the way. 
+                For the four seniors, it was a night to celebrate their accomplishments and the impact 
+                they have left on the team.
+ 
             </p>
 
-            <p>
-                Segundo párrafo del artículo.
-            </p>
-
-            <h2>Subtítulo</h2>
-
-            <p>
-                Más contenido aquí.
-            </p>
         `
     },
     {
@@ -111,7 +127,7 @@ const articles = [
         category: "Media",
         type: "Movie · Coming of Age",
         author: "Adrian Yzaguirre",
-        date: "October, 2026",
+        date: "October 2026",
 
         image: "images/halloween-article.jpg",
 
