@@ -162,6 +162,38 @@ const articles = [
                 spooky season is all about. 
             </p>
         `
+    },
+    {
+        id: "thanksgiving-is-more-than-a-day",
+        title: "Thanksgiving Is More Than a Day",
+        category: "Media",
+        type: "Seasonal · Holiday",
+        author: "Raul Garcia",
+        date: "November 2026",
+        image: "https://blog.solsticebenefits.com/hubfs/Blog%20Images/Giving%20Back%20for%20Thanksgiving.png",
+        description: "A reflection on gratitude and why it should extend beyond Thanksgiving.",
+        content: `
+            <p>
+                Thanksgiving is a meaningful holiday centered around giving our thanks to the things which we receive. I am a fan of thanksgiving, I love thanking others. In fact, thank you for reading this essay. That being said I wish to share a perspective with you. Thanksgiving, not as a day on the calendar, but as the things with which we live by. It's an extreme idea, but please let me convince you to at least carry thanksgiving for more than a day. 
+            </p>
+
+            <p>
+                It's no secret that we are selfish. We all try to be the best we can be but inevitably fail and can not be that person we wish to be. Despite that, even if we fail, there are still people who would stay with you. That is something to really be thankful for. But that fact of the human condition isn't something which starts or ends at November, no we constantly fail, but are given grace by someone else. Even the smallest act of charity can change your mood. Because of that can you not see how we are indebted to be thankful? Then, if it's natural to receive charity from other people, how can thanksgiving only be one day? 
+            </p>
+
+            <p>
+                I believe that people take for granted modern society. It's a miracle we are all so civil with each other. It's actually quite strange that fights or arguments are so rare. In our diverse world it wasn't so long ago that skin could cause division. We then minimized the role of thanksgiving because of how easy life is now. It's not a bad thing to live comfortable live,  but we should not forget to whom we are indebted with. And it is most common that we cannot see a hand in front of us if we are not primed by a holiday like Thankgiving to be thankful and express our gratitude to those around us. But it shouldn't be this way. Just because we can not consciously recognize how much other people impact us does not mean that we are not impacted. For example, how simple gestures like holding open a door, can influence you to act more polite in public. We are people shaped by people. 
+            </p>
+
+            <p>
+                Then how can we repay our debt what makes Thanksgiving so important that I believe it is something which we should follow throughout our life? Well, simply put, we can only ever try to repay our debt to the people who have shaped us and changed us, and most commonly people who do change us can be total strangers. In such a difficult situation it is only possible to do our best. And out best is not just thanksgiving, our best is every day of the year and every interaction with someone else. Because we are people who are only here today because of everyone else who changed us then I think it is only fair that we return the favor and try to leave something fond for people who we interact with. The most common example being parents. Unfortunately, we can not be to our parents what are parents are to us. But it doesn't mean that the sacrifice done by a parent can't be repaid. By living with our hearts open and trying to be the best self for others, we can similarly change others for the better and repay our debt to society.  
+            </p>
+
+            <p>
+                I hope to conclude with a message that can change your outlook on how to treat others. Our actions are informed by what has happened to us, but it doesn't mean our actions must perpetuate what we are. It means are actions should be what our life has brough us to. If we have lived hard lives then be gentle on others and try to be the best you can be, If we have lived easy lives then likewise we should be empathetic and understanding. And all our actions should be taken in the lenses of helping others, because all our life we have been helped. 
+            </p>
+
+             `
     }
     
 ];
