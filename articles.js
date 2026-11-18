@@ -83,6 +83,7 @@ const articles = [
         type: "Movie · Coming of Age",
         author: "Yannel Conde",
         date: "October 2026",
+        publishedAt: "2026-10-26",
 
         image: "images/senior-night.jpg",
 
@@ -133,6 +134,7 @@ const articles = [
 
         description:
             "The fading traditions of Halloween.",
+        publishedAt: "2026-10-31",
 
         content: `
             <p>
@@ -172,6 +174,7 @@ const articles = [
         date: "November 2026",
         image: "https://blog.solsticebenefits.com/hubfs/Blog%20Images/Giving%20Back%20for%20Thanksgiving.png",
         description: "A reflection on gratitude and why it should extend beyond Thanksgiving.",
+        publishedAt: "2026-11-14",
         content: `
             <p>
                 Thanksgiving is a meaningful holiday centered around giving our thanks to the things which we receive. I am a fan of thanksgiving, I love thanking others. In fact, thank you for reading this essay. That being said I wish to share a perspective with you. Thanksgiving, not as a day on the calendar, but as the things with which we live by. It's an extreme idea, but please let me convince you to at least carry thanksgiving for more than a day. 

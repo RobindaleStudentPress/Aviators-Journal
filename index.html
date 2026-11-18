@@ -10,7 +10,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
+<link rel="icon" type="image/png" href="images/RO.png">
 <body>
 
     <!-- ================= HEADER ================= -->
@@ -300,7 +300,7 @@
 
                     <article class="soft-card">
 
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/903034105_1800773058719215_511160147210185773_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eqlwnecU2_oQ7kNvwEsu6GX&_nc_oc=AdpgepEf2PoniYfjktJ5UWzCe5qPXY6LXuCPfvC2DSoTyZl_bMKywg0nB4MmiRjrAzts123gqCpJyv1aVFQ6V23W&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=sMMD32-pU04HYjQ4UolcZQ&_nc_ss=7b2a8&oh=00_AQQrrak-uB_N_nr70KctaYSM7JbpbeT24nTBMF4yP5D68w&oe=6AFD98D2"
+                        <img src="images/veteransday.jpg"
                              alt="Veterans Day">
 
                         <span class="tag">November 11</span>
@@ -357,7 +357,7 @@
 <div class="featured-fall">
 
     <img
-        src="https://vacation-in-florida.com/wp-content/uploads/2022/12/Thanksgiving-%E2%80%93-American-Family-Holiday-in-November.jpg"
+        src="images/thanksgiving.png"
         alt="Fall and Halloween decorations"
     >
 
@@ -368,7 +368,7 @@
         <h2>Fall is here at Robindale!</h2>
 
         <p>
-            From Halloween activities to fall celebrations,
+            Fesall celebrations,
             discover what is happening around our school this season.
         </p>
 
@@ -391,23 +391,23 @@
     <article class="fall-card">
 
         <img
-            src="images/halloween-event.jpg"
-            alt="Halloween school event"
+            src="images/fall-festival.jfif"
+            alt="Fall school event"
         >
 
         <div class="fall-card-content">
 
-            <span class="event-date">OCTOBER 15</span>
+            <span class="event-date">NOVEMBER 18</span>
 
-            <h3>Halloween Event</h3>
+            <h3>Fall Festival</h3>
 
             <p>
-                Join us for a fun Halloween celebration at school.
+                Join us for a fun fall celebration at school.
                 More details coming soon.
             </p>
 
             <span class="event-info">
-                📍 Robindale Campus
+                📍 Cafeteria
             </span>
 
         </div>
@@ -1166,6 +1166,55 @@ function renderArticleCard(article) {
     `;
 }
 
+
+function renderLatestStories() {
+
+    const container = document.getElementById("latest-stories-grid");
+
+    if (!container) return;
+
+    // Get the 6 most recent articles
+    const latestArticles = [...articles]
+        .filter(article => article.publishedAt)
+        .sort((a, b) =>
+            new Date(b.publishedAt) - new Date(a.publishedAt)
+        )
+        .slice(0, 6);
+
+    if (latestArticles.length === 0) {
+        container.innerHTML = "<p>New stories coming soon.</p>";
+        return;
+    }
+
+    container.innerHTML = latestArticles.map((article, index) => `
+        <a href="#article-${article.id}"
+           class="story-card ${index === 0 ? "large-card" : ""}">
+
+            <img
+                src="${article.image}"
+                alt="${article.title}"
+                loading="lazy"
+            >
+
+            <div class="card-content">
+
+                <span class="tag">${article.category}</span>
+
+                <h3>${article.title}</h3>
+
+                <p>${article.description}</p>
+
+                <small>
+                    By ${article.author} · ${article.date}
+                </small>
+
+            </div>
+
+        </a>
+    `).join("");
+}
+
+
 function renderArticlesForCategory(category, containerId, position = "beforeend") {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -1181,6 +1230,7 @@ function renderArticlesForCategory(category, containerId, position = "beforeend"
 }
 
 function renderAllArticles() {
+    renderLatestStories();
     renderArticlesForCategory("Media", "media-articles", "afterbegin");
     renderArticlesForCategory("Events", "events-articles");
     renderArticlesForCategory("Sports", "sports-articles");
